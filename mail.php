@@ -1,7 +1,7 @@
 <?php
-	$host="cryfin.ipagemysql.com";
-	$user="cryfin";
-	$pass="Anime.Fan123";
+	$host="";
+	$user="";
+	$pass="";
 	$conn=mysql_connect($host, $user, $pass);
 	if(!$conn)
 	{
@@ -19,8 +19,8 @@
 		$santa=$row[santa];
 		$email=$row[email];
 		$secret=$row[secret];
-		$headers = 'From: admin@cryf.in' . "\r\n" .
-					'Reply-To: unknown7bolt@gmail.com' . "\r\n" .
+		$headers = 'From: ' . "\r\n" .
+					'Reply-To: ' . "\r\n" .
 					'X-Mailer: PHP/' . phpversion();
 $msg=<<<END
 Hello {$santa},

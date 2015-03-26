@@ -13,9 +13,9 @@
 	<body>
 		<center>
 	<?php
-		$host="cryfin.ipagemysql.com";
-		$user="cryfin";
-		$pass="Anime.Fan123";
+		$host="";
+		$user="";
+		$pass="";
 		$conn=mysql_connect($host, $user, $pass);
 		if(!$conn)
 		{
